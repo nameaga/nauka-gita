@@ -1,0 +1,34 @@
+
+
+
+user@users-MacBook-Air learning-git-2 % npm install --save-dev html-validate
+
+up to date, audited 213 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+user@users-MacBook-Air learning-git-2 % npm exec html-validate index.html   
+
+/Users/user/Desktop/Kod/zadanie-4.1/learning-git-2/index.html
+  1:1  warning  Usage of deprecated rule "void"  deprecated-rule
+
+✖ 1 problem (0 errors, 1 warning)
+
+More information:
+  https://html-validate.org/rules/deprecated-rule.html
+
+user@users-MacBook-Air learning-git-2 % npm exec html-validate .html     
+No files matching patterns [ '.html' ]
+user@users-MacBook-Air learning-git-2 % npm exec html-validate *.html    
+
+/Users/user/Desktop/Kod/zadanie-4.1/learning-git-2/index.html
+  1:1  warning  Usage of deprecated rule "void"  deprecated-rule
+
+✖ 1 problem (0 errors, 1 warning)
+
+More information:
+  https://html-validate.org/rules/deprecated-rule.html
+
+user@users-MacBook-Air learning-git-2 % 
